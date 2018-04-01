@@ -27,7 +27,11 @@ $(function(){
     
     // Add code here
     // x axis is amount of ice cream
+    // Sweden source: https://www.statista.com/statistics/562480/per-capita-consumption-of-ice-cream-in-sweden/
+    // US source: https://www.foodmanufacturing.com/data-focus/2017/09/capita-consumption-ice-cream-us-2000-2016
     // y axis is temp.
+    // data harvested by hand from here: https://www.timeanddate.com/weather/usa/berkeley/historic
+    
     //xScale = d3.scaleLinear().domain([0,15]).range([0, 120]);
     //yScale = d3.scaleLinear().domain([0, 100]).range([0, 120]);
 
