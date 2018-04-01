@@ -26,8 +26,10 @@ $(function(){
     // Set xScale and yScale to the scales so you can use them outside this function.
     
     // Add code here
-    // xScale = 
-    // yScale =
+    // x axis is amount of ice cream
+    // y axis is temp.
+    //xScale = d3.scaleLinear().domain([0,15]).range([0, 120]);
+    //yScale = d3.scaleLinear().domain([0, 100]).range([0, 120]);
 
 
     // Step 3: Add code to color the points by category (add code here or above)
