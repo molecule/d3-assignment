@@ -20,6 +20,11 @@ $(function(){
   var xScale;
   var yScale;
 
+  // Resources
+  // lab 9: https://docs.google.com/presentation/d/1bgEzog4Q3VxWgwIEy_2vXcXy-ewvkxmrMujWrw5XTQ0/edit#slide=id.g11e3d2a418_0_35
+  // lab 10: https://docs.google.com/presentation/d/1htlDGbI8VcPTU3VqBa_D2JppW1NZtM6ZaC0mMvPp3Ac/edit#slide=id.g11e75756cf_1_11
+  // assignment on bcourses: https://bcourses.berkeley.edu/courses/1469246/assignments/7879590?module_item_id=15574946
+  
   // Step 1: edit data.csv to include the data you want to show
   d3.csv('data.csv', function(data) {
     // Step 2: Create x and y scales (scaleLinear) to draw points. 
